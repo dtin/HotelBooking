@@ -22,9 +22,10 @@ What you will need to run this project:
             <li>Remove a book from cart.</li>
             <li>Update quantity of book in cart.</li>
             <li>Apply discount code: <strong>Each discount code can be use once by each user</strong>.</li>
-            <li>Send confirmation after making a reservation.</li>
+            <li>Send confirmation email after making a reservation.</li>
             <li>Tracking reservation history.</li>
             <li>View detail of a reservation.</li>
+            <li>Rating order after <strong>Check Out</strong> date.</li>
             <li>Remove a reservation.</li>
         </ol>
         <br>
