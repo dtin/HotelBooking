@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+/* Header section */
+
+.header {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background-color: #f5f6fa;
+}
+
+.welcome {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin: 0.5em 0 0 2em;
+}
+
+.home, .sign-out-icon, .view-cart-icon {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    position: relative;
+}
+
+.home i, .view-cart-icon i, .sign-out-icon i {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    width: 2em;
+    top: 25%;
+    right: 2%;
+    color: #636e72;
+}
+
+.home:hover, .view-cart-icon:hover, .sign-out-icon:hover {
+    transition: 1s;
+    background-color: #dfe6e9;
+}
+
+.view-cart-icon:hover {
+    background-color: #e74c3c;
+}
+
+.sign-out-icon:hover {
+    background-color: #2980b9;
+}
+
+.home:hover, .view-cart-icon:hover, .sign-out-icon:hover >i {
+    transition: 1s;
+    color: #353b48;
+}
+
+.view-cart-icon:hover>i, .sign-out-icon:hover>i {
+    color: #ffffff;
+}
+
+
+.search-text {
+    padding: 0 1vw!important;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Post section */
+
+.article,
+.new-post {
+    margin-top: 2em;
+}
+
+.article {
+    margin-bottom: 2em;
+    text-decoration: none;
+}
+
+.error {
+    padding-top: 43vh;
+}
+
+a.single-post {
+    text-decoration: none;
+    color: black;
+}
+
+a.single-post:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.new-post-error {
+    color: #e84118;
+    padding-top: 1em;
+}
+
+.content-post {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.post-owner {
+    display: inline-block;
+    color: #2d3436;
+}
+
+.post-time {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    margin-top: 1.3vh;
+    margin-bottom: 0;
+    width: fit-content;
+    color: #70859f;
+    clear: both;
+}
+
+.post-title {
+    clear: both;
+}
+
+.post-body {
+    white-space: pre-wrap;
+    margin-top: 0.5em;
+}
+
+.post-image {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 2em;
+    display: block;
+}
+
+.options {
+    position: absolute;
+    display: block;
+    right: 1vw;
+    top: 2vh;
+}
+
+.user-emotion a {
+    margin-right: 0.5vw;
+}
+
+p.emotion-error {
+    color: red;
+}
+
+/*Cart section*/
+.cart-book-name {
+    margin: 1em 0 1em 1em;
+    font-weight: bold
+}
+
+.cart-book-price {
+    margin: 1em 0;
+}
+
+.cart-book-quantity {
+    margin: 1em 0;
+    max-width: 4em;
+    text-align: center;
+}
+
+.cart-quantity-error {
+    color: red;
+}
+
+.cart-book-delete {
+    display: block;
+    margin: 1em 0;
+}
+
+.cart-book-delete:hover { 
+    text-decoration: none;
+}
+
+.title-discount {
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.discount-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.cart-discount {
+    color: #d63031;
+    font-size: 2rem;
+}
+
+.discount-code {
+    max-width: 10vw;
+}
+
+.apply-button {
+    display: inline-block;
+    height: 2em;
+    padding: 0 0.5em;
+}
+
+.cart-total-price {
+    font-size: 1.5em;
+}
+
+.error-cart {
+    text-align: right;
+    font-size: 1em;
+    color: #c0392b;
+}
+
+/*Search section*/
+.price-value {
+    max-width: 5vw;
+    text-align: center;
+}
+
+#price-slider {
+    max-width: 25vw;
+}
+
+.search-description {
+    margin: 1em 0 1em 1em;
+}
+
+.search-price {
+    position: relative;
+    top: 50%;
+    padding: 0;    
+}
+
+.search-author, .search-category {
+    position: relative;
+    top: 45%;
+    padding: 0; 
+}
+
+.search-author {
+    font-weight: bold;
+}
+
+.search-buy {
+    position: relative;
+    top: 48%;
+}
+
+.search-image {
+    margin: 1em 0;
+}
+
+/*Update, create book*/
+p.update-validation-error{
+    color: red!important;
+}
+
+.update-admin {
+    position: relative;
+    top: 48%;
+}
+
+.delete-admin {
+    position: relative;
+    top: 48%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*Home Hotel*/
+.types-title {
+    margin: 0;
+}
+
+#typesId {
+    max-width: 10vw;
+    max-height: 8vh;
+}
+
+#roomAmount {
+    max-width: 4vw;
+}
+
+.home-image {
+    max-width: 250px;
+    display: inline-block;
+}
+
+.home-price {
+    display: inline-block;
+}
+
+.home-amount {
+    font-weight: bold;
+}
+
+.star-rating i{
+    font-size: 2em;
+    color: yellow;
+}

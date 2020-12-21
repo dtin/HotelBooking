@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Register - Hotel Booking</title>
+
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="assets/css/register.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 form-register">
+                    <h3 class="text-center">Register Page</h3>
+                    <!-- Start of Register Form -->
+                    <form action="sign-up" method="POST">
+                        <div class="form-group">
+                            <label>Full name <font color="red">* Required</font></label>
+                            <input type="text" class="form-control" name="txtName">
+                        </div>
+                        <div class="form-group">
+                            <label>Email address <font color="red">* Required</font></label>
+                            <input type="email" class="form-control" name="txtEmail">
+                        </div>
+                        <div class="form-group">
+                            <label>Password <font color="red">* Required</font></label>
+                            <input type="password" class="form-control" name="txtPassword">
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm Password <font color="red">* Required</font></label>
+                            <input type="password" class="form-control" name="txtConfirm">
+                        </div>
+                        <div class="form-group">
+                            <label>Address <font color="red">* Required</font></label>
+                            <input type="text" class="form-control" name="txtAddress">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone number <font color="red">* Required</font></label>
+                            <input type="text" class="form-control" name="txtPhone">
+                        </div>
+                        <button type="submit" class="btn btn-outline-secondary register-button">Create Account</button>
+                    </form>
+                    <!-- End of Register Form -->
+
+                    <!-- Start of Login link -->
+                    <a href="login-page" class="d-flex justify-content-center login-link">Back To Login</a>
+                    <!-- End of Login -->
+
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Bootstrap JS-->
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/fontawesome.min.js"></script>
+    </body>
+
+</html>
