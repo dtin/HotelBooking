@@ -25,7 +25,7 @@ What you will need to run this project:
             <li>Send confirmation email after making a reservation.</li>
             <li>Tracking reservation history.</li>
             <li>View detail of a reservation.</li>
-            <li>Rate an order (after <strong>Check Out</strong> date).</li>
+            <li>Rate a reservation (after <strong>Check Out</strong> date).</li>
             <li>Remove a reservation.</li>
         </ol>
         <br>
